@@ -1,0 +1,43 @@
+.bgimg{
+    height:75vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 15px #0b0c0e;
+}
+
+.bgimg img{
+    height:75vh;
+    width: 100%;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+/*card<*/
+
+ .sale-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+ }
+
+
+
+.card-text>span{
+    color: rgb(240, 234, 63);
+    font-weight: bold;
+}
+/*card>*/
+
+
+@media(max-width: 755px) {
+    .bgimg{
+     display: none;
+    }
+}

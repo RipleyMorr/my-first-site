@@ -1,0 +1,125 @@
+
+/*----Index----*/
+
+.bgvideo{
+    height:70vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 15px #0b0c0e;
+}
+
+
+.effect{
+    height:70vh;
+    width: 100%;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.288);}
+
+.bgvideo video{
+    height:70vh;
+    width: 100%;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.video-text{
+    color:rgb(252, 249, 249);
+    z-index: 5;
+}
+
+/*---Index----*/
+
+
+
+/*----VR----*/
+.bgvideo-vr{
+    height:70vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 15px #0b0c0e;
+}
+
+.bgvideo-vr video{
+    height:70vh;
+    width: 100%;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;}
+
+    /*----VR----*/
+
+
+
+    /*----Laptop----*/
+
+.bgvideo-crsl{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 15px #0b0c0e;
+}
+
+
+.bgvideo-crsl>img{
+    width: 100%;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+
+ /*----Laptop----*/
+
+
+
+@media(max-width: 755px) {
+    .bgvideo-vr,.bgvideo-crsl,.pc-crsl{
+     display: none;
+    }
+}
+
+
+
+/*----PC----*/
+
+.pc-crsl{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 15px #0b0c0e;
+}
+
+
+.pc-crsl>img{
+    width: 100%;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+/*----PC----*/
+
+
